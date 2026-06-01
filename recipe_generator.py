@@ -3,7 +3,7 @@ import os
 from flask import Flask, render_template_string, request
 
 # Set OpenAI API Key
-openai.api_key = "BOLT_API_KEY_HERE"
+openai.api_key = "BOLT_API_KEY"
 
 # Initialize Flask App
 app = Flask(__name__)
